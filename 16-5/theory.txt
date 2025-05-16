@@ -1,0 +1,49 @@
+Install VS Code -> https://code.visualstudio.com/Download
+Install Xampp -> https://www.apachefriends.org/download.html
+RFFLOW -> https://www.rff.com/
+draw.io -> Online Website
+ 
+
+# -> Preprocessor
+include -> add something
+stdio ->standard input output
+conio ->console input output
+h -> header file
+
+-> every program will execute from main method
+-> \n -> new line
+-> \t -> tab
+
+int main()
+{
+	return 0;
+}
+
+
+void main()
+{
+	getch();	
+}
+
+-> void indicates there is nothing return
+
+
+data type
+
+integer -> int -> numeric value -> %d
+float -> float -> decimal value[data store capacity : 4 byte] -> %f
+character -> char -> single characters -> %c
+double -> double -> decimal value[data store capacity : 8 byte] -> %lf
+String -> multiple characters -> %s
+
+
+
+int       a      =  5;
+data_type v_name = value;
+
+
+
+
+
+
+
