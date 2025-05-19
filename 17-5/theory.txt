@@ -1,0 +1,72 @@
+C Setup
+
+Hello World
+
+data type
+
+basic
+
+UserInput
+
+
+printf -> print something
+scanf -> take a userinput
+
+
+1)int - numeric - %d
+2)float - decimal - %f[4 byte]
+3)char - characters - %c
+4)double - double - %lf[8  byte]
+
+from the data type
+
+10000
+1 year
+5%
+
+intrest -> 
+total -> 
+
+Operator:
+1)Arithmetic Op: +,-,*,/,%
+2)Assignment Op/Shorthand Op: +=,-=,*=,/=,%=
+3)Relational Op : <,>,<=,>=,==,!=
+
+
+
+
+
+
+c+=a//c=c+a
+a-=b//a=a-b
+
+
+
+=  -> assignment Op
+== -> comparision Op
+
+
+
+
+Check Condition:
+if-else
+
+if(condition)
+{
+}
+else
+{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
