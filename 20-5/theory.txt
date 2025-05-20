@@ -1,0 +1,10 @@
+Conditional statement:
+
+1) if
+2) else
+3) else if[else if ladder]
+4) nested if
+5) switch-case-break
+
+
+
