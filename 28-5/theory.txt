@@ -1,0 +1,57 @@
+Development
+Designing
+Testing
+
+SDLC -> Software Development Lifecycle
+
+1.Requirement Gathering:
+
+   -> Functional Requirement[]
+   -> Non Functional Requirement[]
+
+   -> Written
+   -> Tables
+   -> Diagrams[UML-Unified Modeling Language]
+		
+
+2.Analysis:
+	
+	-> What
+	-> How
+	
+3.Design:
+	-> Web Design
+	-> Graphic Design
+
+
+4.Implementation:
+	-> Coding[Backend Developer]
+
+5.Testing:
+	-> Manual Testing
+	-> Automation Testing
+
+6.Maintenance:
+     	-> Corrective
+	-> Adaptive
+	-> Perfective
+
+
+Total:
+Websites
+Mobile App
+Desktop Software
+
+IDE -> Integrated Development Environment
+
+HTML -> Hypertext Markup Language
+CSS  -> Cascading Style Sheets
+  i)Inline  CSS
+ ii)Internal CSS
+iii)External CSS
+
+
+
+
+
+
