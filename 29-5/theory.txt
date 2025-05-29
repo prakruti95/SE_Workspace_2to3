@@ -1,0 +1,25 @@
+Function will use when you want to decrease the code
+-> when one code is run repeatedly 
+
+Types of Function:
+
+1)Inbuilt Function
+->String
+->math
+
+2)User-defined Function
+
+-> with para with return type
+-> with para without return type
+-> without para with return type
+-> without para without return type
+
+syntax:
+return_type fun_name(para)
+{
+	
+	code
+
+	return function;
+}
+
