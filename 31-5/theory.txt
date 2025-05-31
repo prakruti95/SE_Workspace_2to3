@@ -1,0 +1,24 @@
+Array: Collection of elements
+
+int a= 6;
+a=5;
+
+->Array's index will start from 0.
+[]
+
+[]
+[][]
+[][][]
+[][][][]
+
+Types of Array:
+1-D Array
+2-D Array
+MultiDimensional-3D,4D
+
+Array Initialization WAY:
+int marks[size];
+int marks[] = {10,20,30,40,50};
+
+
+
