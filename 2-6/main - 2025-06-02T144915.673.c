@@ -8,7 +8,7 @@ int main()
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 
-    int arr[n];
+    int arr[n]={5,1,9,6,8};
 
     printf("Enter the elements:\n");
     for (i = 0; i < n; i++) 
