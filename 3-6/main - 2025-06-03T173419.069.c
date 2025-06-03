@@ -17,10 +17,12 @@ int main()
     // Input names
     printf("Enter %d names:\n", n);
 
-    for(i = 0; i < n; i++) 
+    for(i=0; i<n; i++) 
     {
         fgets(names[i], sizeof(names[i]), stdin);
+        
         // Remove newline character from fgets
+        
         names[i][strcspn(names[i], "\n")] = 0;
     }
 
@@ -67,7 +69,8 @@ int main()
     }
 
     // Print sorted names
-    for(i = 0; i < n; i++) {
+    for(i = 0; i < n; i++) 
+    {
         printf("%s\n", names[i]);
     }
 
