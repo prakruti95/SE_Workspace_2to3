@@ -1,0 +1,48 @@
+ Please enter 1 to start the game 
+  Please enter 2 to the high scores 
+  Please enter 3 to seek help 
+  Please enter 0 to exit 
+  Enter your choice: 
+
+
+hELP:
+
+Instructions that are supposed to be followedwhile playing this game: 
+ Quiz Game in C
+ ......................................................
+ You are supposed to answer 20 questions in this game !! 
+ There will be 4 options given for each questions which are marked with a serial number starting from 1 to 4. 
+ For each correct answer, you will be awarded with 5 points !! 
+ As soon as you answer a question, you will be directed to the next question without any pause. 
+ If your answer is wrong, no marks will be deducted from your score !! 
+
+ !! Wish you all the best !! 
+
+ 
+ Do you still wish to continue playing ? If yes, then press 1. Else, press 0 : 
+
+
+
+If Press 1:
+Enter your choice: 1
+
+ Enter your Full name: PRAKRUTI
+
+ You have entered the "Quiz game in C" Welcome to the game " PRAKRUTI "   
+
+  The quiz game will be started now. Get ready to answer the questions !! 
+  ALL THE BEST !!  Question 1: 
+ In the following given characteristics, which one is not related to the federal government ? 
+ 1. Flexible Constitution                2. Written Constitution                 3. Independent Judiciary                4. Supremacy of the Constitution 
+
+ Please enter your answer: 1
+ Your answer is absolutely correct 
+  You score 5 points !! 
+
+  Question 2: 
+ In the following given members, who was the first person belonging to India entered into the space ? 
+ 1. Ravish Malhotra              2. Vikram Ambalal               3. Rakesh Sharma               4. Nagapathi Bhat 
+
+
+
+
