@@ -1,0 +1,82 @@
+fopen(filename, mode),
+fputc(ch,fp),
+fgetc(fp),
+fscanf(fp, format, args),
+fprintf(fp, format,args) 
+fclose(fp);
+
+Ternary Op
+max = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+
+Unary Op:
+++,--
+
+i++
+++i
+
+#include <stdio.h>
+	#include <conio.h> 
+	void main()
+	{	
+		int a=4, b;	
+		clrscr();	
+		printf("\n\n Value of A : %d",a); // 4	
+			a++; // Post	
+			printf("\n\n Value of A : %d",a); // 5	
+		++a; // Pre	
+		printf("\n\n Value of A : %d",a); // 6	
+			b=--a;	
+			printf("\n\n Value of A : %d",a); // 5	
+			printf("\n\n Value of B : %d",b); // 5	
+		b=a++;	
+		printf("\n\n Value of A : %d",a); // 6	
+		printf("\n\n Value of B : %d",b); // 5	
+			b++;	
+			printf("\n\n Value of B : %d",b); // 6	
+		getch();
+	}
+
+12
+
+ 1100
+11000
+
+
+#include <stdio.h>
+
+int main() 
+{
+  unsigned int a = 60; // 0011 1100 in binary
+  unsigned int b = 13; // 0000 1101 in binary
+  unsigned int c = 0;
+
+  c = a & b;  // Bitwise AND: 0000 1100 (12)
+  printf("a & b = %u\n", c);
+
+  c = a | b;  // Bitwise OR:  0011 1101 (61)
+  printf("a | b = %u\n", c);
+
+  c = a ^ b;  // Bitwise XOR: 0011 0001 (49)
+  printf("a ^ b = %u\n", c);
+
+  c = ~a;     // Bitwise NOT: 1100 0011 (implementation-dependent)
+  printf("~a = %u\n", c);
+
+  c = a << 2; // Left shift: 1111 0000 (240)
+  printf("a << 2 = %u\n", c);
+
+  c = a >> 2; // Right shift: 0000 1111 (15)
+  printf("a >> 2 = %u\n", c);
+
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
