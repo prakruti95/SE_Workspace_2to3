@@ -1,0 +1,8 @@
+Constructor:When class having a same as a method name then it's called a constructor.
+
+Types of Constructor:
+
+1)Default Constructor
+2)Parameterized Constructor
+
+->constructor does not have a return type
