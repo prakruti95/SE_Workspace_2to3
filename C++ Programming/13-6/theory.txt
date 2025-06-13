@@ -1,0 +1,22 @@
+Overloading: When Two or more methods having a same name but number of
+parameters are diffrent
+
+Overriding: When Two or more methods having a same name and number of
+parameters are also same
+
+
+
+
+class Maths
+{
+
+	int cal(int a,int b)
+	{
+		return a+b;
+	}
+
+	int cal(int a,int b,int c)
+	{
+		return a*b*c;
+	}
+}
