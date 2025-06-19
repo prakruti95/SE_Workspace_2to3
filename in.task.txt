@@ -1,0 +1,34 @@
+**1. \[Employee System]**
+Create a base class `Employee` with attributes like `name`, `ID`, and `salary`.
+Derive two classes `Manager` and `Clerk` that add their own attributes (e.g., `department`, `workingHours`).
+Write functions to display details of all employees using inheritance.
+
+---
+
+**2. \[Vehicle Hierarchy]**
+Design a base class `Vehicle` with attributes like `brand` and `model`.
+Create two derived classes `Car` and `Bike` that add their own attributes (`numberOfDoors`, `hasGear`).
+Use constructors to initialize and display all values using derived class objects.
+
+---
+
+**3. \[Student Information System]**
+Create a base class `Person` with attributes `name` and `age`.
+Derive a class `Student` from `Person` with additional attributes like `rollNo` and `course`.
+Use inheritance to display full student information using a single function.
+
+---
+
+**4. \[Product Inventory]**
+Create a base class `Product` with `productID`, `name`, and `price`.
+Derive classes `Electronics` and `Grocery` that include specific fields such as `warranty` or `expiryDate`.
+Show how inheritance helps in reusing the code for displaying product details.
+
+---
+
+**5. \[Book Publication]**
+Build a base class `Publication` with `title` and `price`.
+Create two derived classes: `Book` with `pageCount` and `Magazine` with `issueNumber`.
+Demonstrate inheritance by creating objects of `Book` and `Magazine` and displaying all information.
+
+
