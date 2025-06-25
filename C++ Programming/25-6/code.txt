@@ -1,0 +1,151 @@
+1. recursion : 
+
+#include <iostream>
+using namespace std;
+
+// Recursive function to calculate factorial
+int factorial(int n) {
+    if (n == 0 || n == 1)  // base case
+        return 1;
+    else
+        return n * factorial(n - 1);  // recursive call
+}
+
+int main() {
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    cout << "Factorial of " << number << " is " << factorial(number) << endl;
+    return 0;
+}
+
+
+2.
+What is a Friend Function in C++?
+A friend function is a function that is not a member of a class but still has access to 
+its private and protected members. It is declared using the friend keyword inside the class.
+
+#include <iostream>
+using namespace std;
+
+class Box {
+private:
+    int length;
+
+public:
+    Box() 
+    {
+        length = 0;
+    }
+
+    void setLength(int l) 
+    {
+        length = l;
+    }
+
+    // Declare friend function
+    friend void printLength(Box b);
+};
+
+// Friend function definition
+void printLength(Box b) {
+    // Accessing private member directly
+    cout << "Length of the box: " << b.length << endl;
+}
+
+int main() {
+    Box box1;
+    box1.setLength(10);
+
+    // Friend function can access private data
+    printLength(box1);
+
+    return 0;
+}
+
+
+1. Virtual Function
+A virtual function is a function in a base class that you expect to be overridden in derived classes.
+
+It can have a body (implementation) in the base class.
+
+Derived classes may override it, but it’s not mandatory.
+
+Used for runtime polymorphism.
+
+2. Pure Virtual Function
+A pure virtual function is a virtual function that has no implementation in the base class and must be overridden in any derived class.
+
+It makes the class abstract, so you cannot instantiate it.
+
+Derived classes must implement the function, or they will also be abstract.
+
+
+3.
+#include <iostream>
+using namespace std;
+
+class Base {
+public:
+    virtual void show() {  // virtual function
+        cout << "Base class show()" << endl;
+    }
+};
+
+class Derived : public Base {
+public:
+    void show() override {
+        cout << "Derived class show()" << endl;
+    }
+};
+
+int main() {
+    Base* basePtr;
+    Derived d;
+    basePtr = &d;
+
+    basePtr->show();  // Calls Derived's show() due to virtual function
+
+    return 0;
+}
+
+
+4.
+
+#include <iostream>
+using namespace std;
+
+class Shape {
+public:
+    virtual void draw() = 0;  // pure virtual function
+};
+
+class Circle : public Shape {
+public:
+    void draw() override {
+        cout << "Drawing Circle" << endl;
+    }
+};
+
+class Square : public Shape {
+public:
+    void draw() override {
+        cout << "Drawing Square" << endl;
+    }
+};
+
+int main() {
+    Shape* shape1;
+    Circle c;
+    Square s;
+
+    shape1 = &c;
+    shape1->draw();  // Output: Drawing Circle
+
+    shape1 = &s;
+    shape1->draw();  // Output: Drawing Square
+
+    return 0;
+}
+
