@@ -1,0 +1,24 @@
+Having & group by  -> SELECT COUNT(CustomerID), Country FROM Customers
+GROUP BY Country HAVING COUNT(CustomerID) > 5;
+
+distinct -> SELECT DISTINCT column1, column2, ... FROM table_name;
+use -> use database db_name;
+
+grant & revoke:
+GRANT adds permissions, while REVOKE removes them. 
+GRANT is used to assign access, and REVOKE is used to restrict or limit access. 
+
+rollback->rollback;
+commit->commit;
+
+in-> SELECT * FROM Customers WHERE Country IN ('Germany', 'France', 'UK');
+
+between-> SELECT * FROM Products WHERE Price BETWEEN 10 AND 20;
+
+and/or
+->SELECT * FROM Customers WHERE Country = 'Spain' AND CustomerName LIKE 'G%';
+->SELECT * FROM Customers WHERE Country = 'Germany' OR Country = 'Spain';
+
+cursor->
+https://www.tutorialspoint.com/mysql/mysql_cursor_declare_statement.htm
+
