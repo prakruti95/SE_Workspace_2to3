@@ -110,7 +110,9 @@ ineligible:
       int age;  
       cin>>age;
   
-      if (age < 18){    
+      if (age < 18)
+      {
+     
               goto ineligible;    
       }    
       else    
@@ -721,7 +723,7 @@ return 0;
 using namespace std;  
 int main( ) 
 {  
-    string s1 = "Hello";    
+    	string s1 = "Hello";    
 
         char ch[] = { 'C', '+', '+'};    
  

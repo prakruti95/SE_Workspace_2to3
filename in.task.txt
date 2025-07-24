@@ -36,7 +36,8 @@ Demonstrate inheritance by creating objects of `Book` and `Magazine` and display
 
 1. Inheritance:
 
-Design and implement a payroll system for a company. The system must handle multiple types of employees such as:
+Design and implement a payroll system for a company.
+ The system must handle multiple types of employees such as:
 
 FullTime
 
@@ -46,7 +47,9 @@ Intern
 
 Contractor
 
-Each employee type has a different salary structure, and may include allowances, bonuses, deductions, or hourly wages. All employee types must share common data like:
+Each employee type has a different salary structure, and 
+may include allowances, bonuses, deductions, or hourly wages.
+All employee types must share common data like:
 
 Employee ID
 
@@ -62,7 +65,10 @@ Specialized roles like Manager or TeamLead (can be derived from FullTime).
 
 A common base class Employee from which all types inherit.
 
-A method to calculate net salary that should be implemented/overridden in each derived class.
+A method to calculate net salary that should be 
+implemented/overridden in each derived class.
+
+
 
 2. Inheritance with Polymorphism:
 Design a banking system that handles different types of bank accounts, such as:
