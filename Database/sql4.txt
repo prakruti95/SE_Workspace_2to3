@@ -1,4 +1,5 @@
-Having & group by  -> SELECT COUNT(CustomerID), Country FROM Customers
+Having & group by  -> 
+SELECT COUNT(CustomerID), Country FROM Customers
 GROUP BY Country HAVING COUNT(CustomerID) > 5;
 
 distinct -> SELECT DISTINCT column1, column2, ... FROM table_name;
